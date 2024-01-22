@@ -6,11 +6,6 @@ section .data ; constants
 	msg_odd: db 'Number is odd', 0xa
 	msg_odd_len: equ $-msg_odd
 
-	debug: db 'DEBUG', 0xa
-	debug_len: equ $-debug
-
-	newLine: db 0xa
-
 	input: dd 0 ; Stores converted ASCII value
 
 section .bss ; Block Started by Symbol // variables
